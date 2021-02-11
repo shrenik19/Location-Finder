@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Location Finder</title>
+        <link rel="icon" href="/img/pic1.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        
+        <div class='main-content'>
+            {{>header}}
+            <p>This site shows the longitude and latitude for any location.</p>
+            <form>
+                <input placeholder="Enter Location">
+                <button>Search</button>
+            </form>
+
+            <p id='msgOne'></p>
+            <p id='msgTwo'></p>
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
